@@ -17,14 +17,11 @@ console.log('la parola',palindroma);
 // funzione reverse
 function reverseWords(str) {
 
-   let array = [];
+  let stringaInversa = '';
   for (let i =0 ;i <str.length;i++) {
-      array[i]=str[(str.length-1)-i];
+    stringaInversa += str[(str.length-1)-i];
   }
-   return array
-
-
-
+   return stringaInversa
 }
 
 // // **Pari e Dispari**
